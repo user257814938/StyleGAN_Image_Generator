@@ -16,6 +16,8 @@ These sample outputs were generated from the final retained checkpoint:
 
 ![Seed 0001](generated-samples/seed0001.png)
 
+## Project Setup
+
 The final target configuration used in this project is:
 
 - `1 GPU`
