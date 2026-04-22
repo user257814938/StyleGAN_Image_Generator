@@ -2,6 +2,20 @@
 
 This repository documents and reproduces a clean Runpod workflow for training **StyleGAN2** through the official [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) repository on **FFHQ aligned** images converted to **256x256**.
 
+## Preview
+
+These sample outputs were generated from the final retained checkpoint:
+
+- `training-runs/.../network-snapshot-005000.pkl`
+
+### Seed 0000
+
+![Seed 0000](generated-samples/seed0000.png)
+
+### Seed 0001
+
+![Seed 0001](generated-samples/seed0001.png)
+
 The final target configuration used in this project is:
 
 - `1 GPU`
