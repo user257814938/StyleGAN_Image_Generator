@@ -8,12 +8,7 @@ These sample outputs were generated from the final retained checkpoint:
 
 - `training-runs/.../network-snapshot-005000.pkl`
 
-### Seed 0000
-
 ![Seed 0000](generated-samples/seed0000.png)
-
-### Seed 0001
-
 ![Seed 0001](generated-samples/seed0001.png)
 
 ## Project Setup
@@ -27,21 +22,20 @@ The final target configuration used in this project is:
 - training mode: `--cfg=stylegan2`
 - dataset: `FFHQ aligned`
 - working resolution: `256x256`
-- speed-oriented training:
-  - `--batch=64`
-  - `--batch-gpu=64`
-  - `--gamma=0.2048`
-  - `--mirror=1`
-  - `--aug=noaug`
-  - `--metrics=none`
-  - `--kimg=5000`
-  - `--snap=50`
-  - `--tick=4`
-  - `--map-depth=2`
-  - `--glr=0.0025`
-  - `--dlr=0.0025`
-  - `--cbase=16384`
-  - `--mbstd-group=4`
+- `--batch=64`
+- `--batch-gpu=64`
+- `--gamma=0.2048`
+- `--mirror=1`
+- `--aug=noaug`
+- `--metrics=none`
+- `--kimg=5000`
+- `--snap=50`
+- `--tick=4`
+- `--map-depth=2`
+- `--glr=0.0025`
+- `--dlr=0.0025`
+- `--cbase=16384`
+- `--mbstd-group=4`
 
 ## Why this setup
 
