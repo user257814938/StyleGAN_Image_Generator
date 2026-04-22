@@ -1,4 +1,4 @@
-# StyleGAN2 on Runpod with `stylegan3`, `FFHQ aligned 256x256`, and `RTX A6000`
+# StyleGAN2 on Runpod with `stylegan2`, `FFHQ aligned 256x256`, and `RTX A6000`
 
 This repository documents and reproduces a clean Runpod workflow for training **StyleGAN2** through the official [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) repository on **FFHQ aligned** images converted to **256x256**.
 
