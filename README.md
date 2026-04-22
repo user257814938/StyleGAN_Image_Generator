@@ -11,6 +11,12 @@ These sample outputs were generated from the final retained checkpoint:
 ![Seed 0000](generated-samples/seed0000.png)
 ![Seed 0001](generated-samples/seed0001.png)
 
+## Model Architecture
+
+The following diagram illustrates the model architecture used in this project:
+
+![StyleGAN2 Architecture](Architecture.jpg)
+
 ## Project Setup
 
 The final target configuration used in this project is:
