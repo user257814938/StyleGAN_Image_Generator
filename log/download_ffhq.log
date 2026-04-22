@@ -1,0 +1,5 @@
+nohup: ignoring input
+  File "<stdin>", line 5
+    print(f'Rows: 
+          ^
+SyntaxError: unterminated string literal (detected at line 5)

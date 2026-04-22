@@ -1,0 +1,1 @@
+/workspace/generate_samples.sh /workspace/training-runs/00000-stylegan2-ffhq-256x256-gpus1-batch64-gamma0.2048/network-snapshot-005000.pkl

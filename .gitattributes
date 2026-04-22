@@ -1,0 +1,1 @@
+training-runs/**/network-snapshot-005000.pkl filter=lfs diff=lfs merge=lfs -text

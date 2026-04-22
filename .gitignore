@@ -1,0 +1,23 @@
+# Raw dataset images
+data/ffhq-aligned/**/*.png
+!data/ffhq-aligned/.gitkeep
+
+# Converted dataset archive
+datasets/**/*.zip
+!datasets/.gitkeep
+
+# Keep only the final snapshot
+training-runs/**/network-snapshot-*.pkl
+!training-runs/**/network-snapshot-005000.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Nested Git repo metadata
+model-stylegan2/.git/
