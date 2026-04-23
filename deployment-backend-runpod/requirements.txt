@@ -1,0 +1,17 @@
+runpod==1.7.13
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.26.4
+pillow==10.4.0
+click==8.1.7
+requests==2.32.3
+tqdm==4.66.5
+pyspng==0.1.2
+ninja==1.11.1.1
+imageio==2.35.1
+imageio-ffmpeg==0.5.1
+scipy==1.14.1
+matplotlib==3.9.2
+dill==0.3.8
+tensorboard==2.18.0
+opencv-python-headless==4.10.0.84
