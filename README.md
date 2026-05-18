@@ -2,6 +2,40 @@
 
 This repository documents and reproduces a clean Runpod workflow for training **StyleGAN2** through the official [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3) repository on **FFHQ aligned** images converted to **256x256**.
 
+## Training progression
+
+The following images show how the model evolved during training, from initialization to the final retained checkpoint.
+
+### 0 kimg — initialization
+
+At the beginning of training, the generator produces noisy and structurally unstable faces. Global facial layout is not yet learned.
+
+![0 kimg](generated-samples/fakes000000.png)
+
+### ~200 kimg
+
+At this stage, the model starts learning the overall face structure, but the outputs still contain strong artifacts and poor feature consistency.
+
+![~200 kimg](generated-samples/fakes000201.png)
+
+### ~400 kimg
+
+The facial composition becomes more coherent. Eyes, nose, mouth, and hair placement improve, but image quality is still unstable.
+
+![~400 kimg](generated-samples/fakes000403.png)
+
+### ~1400 kimg
+
+The model now produces much more realistic faces with clearer structure, better proportions, and fewer visible artifacts.
+
+![~1400 kimg](generated-samples/fakes001411.png)
+
+### 5000 kimg — final retained checkpoint
+
+At the final retained checkpoint, the generated faces are significantly more realistic, stable, and visually coherent.
+
+![5000 kimg](generated-samples/fakes005000.png)
+
 ## Preview
 
 These sample outputs were generated from the final retained checkpoint:
